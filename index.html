@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="ar">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
@@ -484,10 +484,9 @@
     <section class="contacts" id="contacts">
         <div class="container">
             <div class="row">
-                <div class="col-md">
-                    <div class="map" id="map">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.1785100243414!2d55.276565085115145!3d25.197201837883924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43348a67e24b%3A0xff45e502e1ceb7e2!2z2KjYsdisINiu2YTZitmB2Kk!5e0!3m2!1sar!2ssa!4v1547398613105" width="560" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
-                    </div>
+                <div class="col-md" id="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.1785100243414!2d55.276565085115145!3d25.197201837883924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43348a67e24b%3A0xff45e502e1ceb7e2!2z2KjYsdisINiu2YTZitmB2Kk!5e0!3m2!1sar!2ssa!4v1547398613105"
+                        width="100%" height="200" allowfullscreen></iframe>
                 </div>
                 <div class="col-md">
                     <div class="info">
@@ -584,11 +583,11 @@
                             </li>
                             <li>
                                 <i class="fa fa-phone" aria-hidden="true"></i>
-                                012 3456 7890
+                                <a href="tell:012 3456 7890">012 3456 7890</a> 
                             </li>
                             <li>
                                 <i class="fa fa-envelope" aria-hidden="true"></i>
-                                email@domain.com
+                                <a href="mailto:email@domain.com">email@domain.com</a> 
                             </li>
                         </ul>
                     </div>
@@ -596,9 +595,10 @@
             </div>
         </div>
         <div class="copyright text-center">
-            <p>جميع الحقوق محفوظة &copy</p>
+            <p>جميع الحقوق محفوظة &copy;</p>
         </div>
     </footer>
+    
     <script src="asset/JavaScript/jquery-3.1.1.min.js"></script>
     <script src="asset/bootstrap/js/bootstrap.min.js"></script>
     <script src="asset/countTo/jquery.countTo.js"></script>

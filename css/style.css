@@ -6,6 +6,7 @@
 body
 {
     font-family: ar-font;
+    direction: rtl;
 }
 
 header
@@ -378,6 +379,10 @@ section.contacts
 {
     background-color: #fff;
     padding-top: 100px;
+}
+section.contacts iframe
+{
+    border: none;
 }
 section.contacts .info h3 
 {
